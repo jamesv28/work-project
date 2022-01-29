@@ -18,7 +18,13 @@
         <router-link :to="{name: 'Giphy'}">Go to Giphy Page </router-link>
       </p>
     </div>
-
+    <div class="col-md-3 col-sm-8 offset-sm-2">
+      <h2 class="text-center">Movies</h2>
+      <p>Using IMDb's api, find all of the movies you could possibly imagine</p>
+      <p class="text-center">
+        <router-link :to="{name: 'Movie'}" class="text-center">Go to Dolph'd</router-link>
+      </p>
+    </div>
   </div>
 </section>
   </section>

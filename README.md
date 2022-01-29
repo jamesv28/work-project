@@ -15,5 +15,5 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### View more in-depth coverage of code
+I added a changelog file in the root to closer monitor all changes

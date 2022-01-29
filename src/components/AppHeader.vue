@@ -4,6 +4,7 @@
     <div class="container-fluid nav-container">
       <router-link class="navbar-brand" :to="{name: 'Home'}">Pro Project</router-link>
       <router-link class="nav-link" :to="{name: 'Giphy'}">Giphy</router-link>
+      <router-link class="nav-link" :to="{name: 'Movie'}">Dolph'd</router-link>
     </div>
 </nav>
 </header>

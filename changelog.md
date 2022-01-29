@@ -1,5 +1,11 @@
 # Changelog for the Professional Project
 
+### Third Commit
+- Created a movies page to utilize imdb-api: still don't know what to do 
+- updated header and home view to add links 
+- Deleted About View from views folder and removed from router file
+- added movies route to home and app header
+  
 ### Second Commit
 - CDN of Bootstrap and Font Awesome
 - Created a Giphy View and updated router file
