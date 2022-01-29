@@ -15,6 +15,9 @@ npm run serve
 - Go to the serve tab, and click run task
 - Once it is has been served, click the open app tab
 
+### Or Live Preview
+- [View app](https://work-project-jamesv28.vercel.app/?#/)
+  
 ### Compiles and minifies for production
 ```
 npm run build
