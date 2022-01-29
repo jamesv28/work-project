@@ -10,6 +10,11 @@ npm install
 npm run serve
 ```
 
+### Or, to use the Vue UI
+- go to the terminal or command prompt, and entere: Vue UI
+- Go to the serve tab, and click run task
+- Once it is has been served, click the open app tab
+
 ### Compiles and minifies for production
 ```
 npm run build
