@@ -19,8 +19,8 @@
       </p>
     </div>
     <div class="col-md-3 col-sm-8 offset-sm-2">
-      <h2 class="text-center">Movies</h2>
-      <p>Using IMDb's api, find all of the movies you could possibly imagine</p>
+      <h2 class="text-center">Dolph'd</h2>
+      <p>Using omdb's api, find all of the movies Dolph Lundgren has been gracious enough to be a part of</p>
       <p class="text-center">
         <router-link :to="{name: 'Movie'}" class="text-center">Go to Dolph'd</router-link>
       </p>

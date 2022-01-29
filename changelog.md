@@ -1,5 +1,14 @@
 # Changelog for the Professional Project
 
+### Fifth Commit
+- Started to work on the Dolph Lundgren page, hgihlighting his many accomplishments
+- Switched to omdb instead of imdb-api because kept getting server busy error
+- Made movie view responsive
+- Changed HomeView to include Dolph'd link
+- Added a data file to use to navigate through Lundgren's movie appearances
+- Made movie and giphy page responsive
+- Got trending gifs available for view
+  
 ### Fourth Commit
 - Installed axios to work on api requests
 - Worked on Giphy View to search for gifs on the giphy api
