@@ -43,7 +43,7 @@ export default {
         async selectMovie(e) {
             const api_key = 'c762050b';
             const movieTitle = e.target.childNodes[0].data; 
-            const url = `http://www.omdbapi.com/?apikey=${api_key}&t=${movieTitle}`; 
+            const url = `https://www.omdbapi.com/?apikey=${api_key}&t=${movieTitle}`; 
             this.movieInfo = [];
             try {
                 const res = await axios.get(url);
