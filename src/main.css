@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #faf8f0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #800080;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #800080;
+    border-bottom: 2px solid #800080;
+}

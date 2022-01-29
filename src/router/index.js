@@ -1,5 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import GiphyView from '@/views/GiphyView.vue'
+import PageNotFoundView from '@/views/PageNotFoundView.vue'
 
 const routes = [
   {
@@ -7,6 +9,15 @@ const routes = [
     name: 'Home',
     component: Home
   },
+  {
+    path: '/giphy',
+    name: 'Giphy',
+    component: GiphyView
+  },
+  {
+    path: '/:catchAll(.*)*',
+    component: PageNotFoundView
+  }, 
   {
     path: '/about',
     name: 'About',
