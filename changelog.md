@@ -1,6 +1,6 @@
 # Changelog for the Professional Project
 
-### Sevent Commit
+### Seventh Commit
 - Made movie selection accessible
   
 ### Sixth Commit
