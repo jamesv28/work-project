@@ -66,9 +66,7 @@ export default {
     },
     methods: {
         async searchGiphy() {
-            this.gifs = null;
-            this.trending = null;
-            
+            this.trending = null;  
             const url = `https://api.giphy.com/v1/gifs/search?q=${this.search}&api_key=${this.api_key}&limit=20`
             try {
                 const response = await axios.get(url);
@@ -84,7 +82,6 @@ export default {
             try {
                 const res = await axios.get(url);
                 this.trending = res.data.data;
-                console.log('trending', this.trending);
             } catch(err) {
                 console.log('err',err);
                 return

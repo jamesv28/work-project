@@ -1,5 +1,9 @@
 # Changelog for the Professional Project
 
+### Sixth Commit
+- Stupid mistake: forgot to get rid of console.log message
+- Cleaned up on giphyview
+  
 ### Fifth Commit
 - Started to work on the Dolph Lundgren page, hgihlighting his many accomplishments
 - Switched to omdb instead of imdb-api because kept getting server busy error
