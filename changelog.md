@@ -1,5 +1,8 @@
 # Changelog for the Professional Project
 
+### Sevent Commit
+- Made movie selection accessible
+  
 ### Sixth Commit
 - Stupid mistake: forgot to get rid of console.log message
 - Cleaned up on giphyview

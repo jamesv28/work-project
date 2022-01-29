@@ -4,9 +4,9 @@
             <!-- dolph lundgren movie lookup -->
             <div class="col-md-3 col-sm-4 movies">
                 <h2 class="text-center opening" id="movie-select">Select movie</h2>
-                <ul v-for="movie in movies" :key="movie.id">
-                    <li aria-describedby="movie-select" tabindex="0" @click.prevent="selectMovie($event)" :id="movie.movie">
-                        {{movie.movie}}
+                <ul >
+                    <li v-for="movie in movies" :key="movie.id" aria-describedby="movie-select" @click.prevent="selectMovie($event)" :id="movie.movie">
+                        <a href="#">{{movie.movie}}</a>
                     </li>
                 </ul>
             </div>
@@ -18,7 +18,6 @@
                         <movie-info :movie="movieInfo[0]" />
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -71,8 +70,18 @@ ul {
 }
 li {
     cursor: pointer;
+    margin-bottom: 12px;
 }
-li:active, li:focus {
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    border-bottom: none;
+    color: black;
+}
+a:active, a:focus {
     outline: none;
 }
 @media screen and (max-width: 800px) {
