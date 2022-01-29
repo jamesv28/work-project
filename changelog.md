@@ -1,8 +1,13 @@
 # Changelog for the Professional Project
 
+### Fourth Commit
+- Installed axios to work on api requests
+- Worked on Giphy View to search for gifs on the giphy api
+- Forgot to include global styles to the main.js file
+  
 ### Third Commit
 - Created a movies page to utilize imdb-api: still don't know what to do 
-- updated header and home view to add links 
+- Updated header and home view to add links 
 - Deleted About View from views folder and removed from router file
 - added movies route to home and app header
   

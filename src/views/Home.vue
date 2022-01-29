@@ -27,7 +27,6 @@
     </div>
   </div>
 </section>
-  </section>
 
 </template>
 
@@ -35,9 +34,7 @@
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
-  }
+
 }
 </script>
 
