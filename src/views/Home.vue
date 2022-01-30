@@ -21,6 +21,13 @@
         <router-link :to="{name: 'Movie'}" class="text-center">Go to Dolph'd</router-link>
       </p>
     </div>
+    <div class="col-md-3 col-sm-8 offset-sm-2">
+      <h2 class="text-center">Weather</h2>
+      <p>Using OpenWeather's api, Find the current weather</p>
+      <p class="text-center">
+        <router-link :to="{name: 'Weather'}" class="text-center">Go to Weather</router-link>
+      </p>
+    </div>
   </div>
 </section>
 
