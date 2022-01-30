@@ -5,6 +5,7 @@
       <router-link class="navbar-brand" :to="{name: 'Home'}">Pro Project</router-link>
       <router-link class="nav-link" :to="{name: 'Giphy'}">Giphy</router-link>
       <router-link class="nav-link" :to="{name: 'Movie'}">Dolph'd</router-link>
+      <router-link class="nav-link" :to="{name: 'Weather'}">Weather</router-link>
     </div>
 </nav>
 </header>
