@@ -50,7 +50,6 @@ export default {
             axios.get(url)
                     .then(res => {
                         this.weather = res.data;
-                        console.log(this.weather);
                     }).catch(err => {
                         console.error('error', err);
                     })
