@@ -11,7 +11,7 @@
             <h2 class="text-center">Today's weather </h2>  
             <img class="center-image" :src="'https://openweathermap.org/img/wn/' + weather.current.weather[0].icon + '@2x.png'" alt=""/>      
             <p class="text-center">{{weather.current.weather[0].description}}</p>
-            <p class="text-center">Current: {{Math.trunc(weather.current.temp)}}</p>  
+            <p class="text-center">Current: {{Math.trunc(weather.current.temp)}}&deg F</p>  
             <p class="text-center">Humidity: {{weather.current.humidity}}%</p>  
             <h5 class="text-center">5-day forecast</h5>
             <div class="d-flex align-items-center justify-content-center">
