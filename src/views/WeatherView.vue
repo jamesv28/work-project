@@ -9,7 +9,7 @@
       <div class="row" v-else>
           <div class="col-md-6 offset-md-3">
             <h2 class="text-center">Today's weather </h2>  
-            <img class="center-image" :src="'http://openweathermap.org/img/wn/' + weather.current.weather[0].icon + '@2x.png'" alt=""/>      
+            <img class="center-image" :src="'https://openweathermap.org/img/wn/' + weather.current.weather[0].icon + '@2x.png'" alt=""/>      
             <p class="text-center">{{weather.current.weather[0].description}}</p>
             <p class="text-center">Current: {{Math.trunc(weather.current.temp)}}</p>  
             <p class="text-center">Humidity: {{weather.current.humidity}}%</p>  
