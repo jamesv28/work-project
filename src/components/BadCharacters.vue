@@ -9,7 +9,7 @@
             </span> 
         </p>     
         <p>Portrayed by: {{character.portrayed}} </p>
-        <p>Status: {{character.status}}</p>
+        <p :class="character.status == 'Deceased' ? 'red-text': ''">Status: {{character.status}}</p>
     </div>
 </template>
 
@@ -29,6 +29,9 @@ export default {
 .character {
     border: 1px solid black;
     border-radius: 4px;
+}
+.red-text {
+    color: red;
 }
 .pill {
     background-color: #10630286;
