@@ -4,6 +4,7 @@ import GiphyView from '@/views/GiphyView.vue'
 import MovieView from '@/views/MovieView.vue'
 import PageNotFoundView from '@/views/PageNotFoundView.vue'
 import WeatherView from '@/views/WeatherView.vue'
+import BreakingBadView from '@/views/BreakingBadView.vue'
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     path: '/weather',
     name: 'Weather',
     component: WeatherView
+  },
+  {
+    path: '/breaking-bad',
+    name: 'BreakingBad',
+    component: BreakingBadView
   },
   {
     path: '/:catchAll(.*)*',

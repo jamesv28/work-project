@@ -28,6 +28,13 @@
         <router-link :to="{name: 'Weather'}" class="text-center">Go to Weather</router-link>
       </p>
     </div>
+    <div class="col-md-3 col-sm-8 offset-sm-2">
+      <h2 class="text-center">Breaking Bad</h2>
+      <p>Simply app, listing the main characters of Breaking Bad and check to see if there alive</p>
+      <p class="text-center">
+        <router-link :to="{name: 'BreakingBad'}" class="text-center">Go to Breaking Bad</router-link>
+      </p>
+    </div>
   </div>
 </section>
 
