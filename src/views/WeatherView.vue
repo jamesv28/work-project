@@ -6,6 +6,9 @@
                 <i class="fas fa-spinner fa-pulse fa-3x"></i>
             </div>
       </div>
+      <div class="row" v-else-if="errorStr.length">
+          <h2 class="text-center">{{errorStr}}</h2>
+      </div>
       <div class="row" v-else>
           <div class="col-md-6 offset-md-3">
             <h2 class="text-center">Today's weather </h2>  
